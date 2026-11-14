@@ -1,0 +1,1680 @@
+{
+  "users": [
+    {
+      "id": "usr-abhiram-001",
+      "name": "Abhiram Reddy",
+      "email": "user@mediswift.com",
+      "password_hash": "$2b$10$lIVLPr6X3k77IL/t97I.hee.9CxpicQ5BPeUWZOyP0o611Wznr69S",
+      "role": "user",
+      "phone": "+91 98765 43210",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-08-22T15:45:04.940Z"
+    },
+    {
+      "id": "usr-admin-001",
+      "name": "Dr. Rajesh Sharma (Pharmacist)",
+      "email": "admin@mediswift.com",
+      "password_hash": "$2b$10$RzT.Fpf5lIYim05ZRQYn3.m9KeB4947O2QYDlllW7ZuplUwr/BXj2",
+      "role": "admin",
+      "phone": "+91 91234 56789",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-08-22T15:45:04.943Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "addr-001",
+      "user_id": "usr-abhiram-001",
+      "label": "Home",
+      "full_name": "Abhiram Reddy",
+      "phone": "+91 98765 43210",
+      "house_no": "#42, 3rd Cross",
+      "street": "Koramangala 4th Block",
+      "area": "Koramangala",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560034",
+      "lat": 12.9352,
+      "lng": 77.6245,
+      "is_default": 1
+    },
+    {
+      "id": "addr-002",
+      "user_id": "usr-abhiram-001",
+      "label": "Office",
+      "full_name": "Abhiram Reddy",
+      "phone": "+91 98765 43210",
+      "house_no": "Tech Park Tower B, 5th Floor",
+      "street": "Outer Ring Road",
+      "area": "Bellandur",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560103",
+      "lat": 12.9279,
+      "lng": 77.6806,
+      "is_default": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-01",
+      "name": "Pain Relief",
+      "slug": "pain-relief",
+      "icon": "ShieldAlert",
+      "description": "Fast acting pain killers and anti-inflammatories"
+    },
+    {
+      "id": "cat-02",
+      "name": "Fever & Cold",
+      "slug": "fever-cold",
+      "icon": "Thermometer",
+      "description": "Antipyretics, decongestants and cold syrups"
+    },
+    {
+      "id": "cat-03",
+      "name": "Vitamins & Supplements",
+      "slug": "vitamins",
+      "icon": "Pill",
+      "description": "Daily multivitamins, minerals and immunity boosters"
+    },
+    {
+      "id": "cat-04",
+      "name": "Diabetes Care",
+      "slug": "diabetes",
+      "icon": "Activity",
+      "description": "Insulin, test strips, blood glucose monitors and care"
+    },
+    {
+      "id": "cat-05",
+      "name": "Digestive Health",
+      "slug": "digestive",
+      "icon": "Zap",
+      "description": "Antacids, laxatives, probiotics and gut enzymes"
+    },
+    {
+      "id": "cat-06",
+      "name": "Skin Care",
+      "slug": "skincare",
+      "icon": "Sparkles",
+      "description": "Dermatological creams, ointments and acne care"
+    },
+    {
+      "id": "cat-07",
+      "name": "Personal Care",
+      "slug": "personal-care",
+      "icon": "Heart",
+      "description": "Hygiene products, soaps, sanitizers and oral care"
+    },
+    {
+      "id": "cat-08",
+      "name": "Baby Care",
+      "slug": "baby-care",
+      "icon": "Smile",
+      "description": "Baby food, diapers, wipes and gentle lotion"
+    },
+    {
+      "id": "cat-09",
+      "name": "First Aid",
+      "slug": "first-aid",
+      "icon": "Cross",
+      "description": "Bandages, antiseptics, cotton rolls and tapes"
+    },
+    {
+      "id": "cat-10",
+      "name": "Women's Health",
+      "slug": "womens-health",
+      "icon": "UserCheck",
+      "description": "Feminine hygiene, iron supplements and wellness"
+    },
+    {
+      "id": "cat-11",
+      "name": "Men's Health",
+      "slug": "mens-health",
+      "icon": "User",
+      "description": "Men's multivitamins, hair loss care and stamina"
+    },
+    {
+      "id": "cat-12",
+      "name": "Medical Devices",
+      "slug": "medical-devices",
+      "icon": "Stethoscope",
+      "description": "BP monitors, pulse oximeters, nebulizers"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med-01",
+      "name": "Dolo 650 Tablet",
+      "generic_name": "Paracetamol 650mg",
+      "brand": "Micro Labs",
+      "category_id": "cat-02",
+      "strength": "650mg",
+      "manufacturer": "Micro Labs Ltd",
+      "price": 30.5,
+      "discount": 10,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Dolo 650 Tablet is an antipyretic medicine used to relieve fever and mild to moderate pain including headache, body ache, and toothache.",
+      "uses": "Fever reduction, headache relief, muscle soreness, post-vaccination fever",
+      "warnings": "Do not exceed 4g paracetamol per day. Avoid alcohol while taking this medication.",
+      "storage_info": "Store below 30°C in a dry place away from direct sunlight.",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-02",
+      "name": "Crocin 500mg Advance",
+      "generic_name": "Paracetamol 500mg",
+      "brand": "GSK Consumer Healthcare",
+      "category_id": "cat-02",
+      "strength": "500mg",
+      "manufacturer": "GlaxoSmithKline",
+      "price": 24,
+      "discount": 5,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Crocin Advance features Optizorb technology which gets to work 5 times faster than standard paracetamol tablets.",
+      "uses": "Fast fever relief, joint pain, dental pain, backache",
+      "warnings": "Consult doctor if fever persists for more than 3 days.",
+      "storage_info": "Keep out of reach of children. Store in original pack.",
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890003?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-03",
+      "name": "Combiflam Tablet",
+      "generic_name": "Ibuprofen (400mg) + Paracetamol (325mg)",
+      "brand": "Sanofi India",
+      "category_id": "cat-01",
+      "strength": "400mg / 325mg",
+      "manufacturer": "Sanofi India Ltd",
+      "price": 42,
+      "discount": 12,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Combiflam combines NSAID ibuprofen with paracetamol for powerful anti-inflammatory and dual action pain relief.",
+      "uses": "Severe headache, arthritis pain, dental surgery pain, period pain",
+      "warnings": "Take with food or milk to prevent stomach upset. Not recommended in kidney diseases.",
+      "storage_info": "Store in a cool dry place.",
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-04",
+      "name": "Becosules Z Capsules",
+      "generic_name": "B-Complex + Vitamin C + Zinc",
+      "brand": "Pfizer",
+      "category_id": "cat-03",
+      "strength": "Multi-dose",
+      "manufacturer": "Pfizer Ltd",
+      "price": 52,
+      "discount": 15,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Essential B-complex vitamins enriched with Vitamin C and elemental Zinc to boost immunity, tissue repair and cellular energy.",
+      "uses": "Mouth ulcers, general weakness, recovery after illness, hair and skin nutritional support",
+      "warnings": "May cause harmless harmless yellow discoloration of urine due to Vitamin B2.",
+      "storage_info": "Store in cool place protected from light.",
+      "image": "https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-05",
+      "name": "Amoxyclav 625mg Tablet",
+      "generic_name": "Amoxicillin (500mg) + Clavulanic Acid (125mg)",
+      "brand": "Cipla",
+      "category_id": "cat-01",
+      "strength": "625mg",
+      "manufacturer": "Cipla Ltd",
+      "price": 215,
+      "discount": 8,
+      "availability": 1,
+      "prescription_required": 1,
+      "description": "Broad spectrum penicillin-type antibiotic used to treat bacterial infections of lungs, ears, sinuses, urinary tract and skin.",
+      "uses": "Bacterial sinusitis, bronchitis, pneumonia, UTI, wound infection",
+      "warnings": "PRESCRIPTION REQUIRED. Complete full course as prescribed even if symptoms improve.",
+      "storage_info": "Store away from heat and moisture.",
+      "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-06",
+      "name": "Glycomet 500mg SR",
+      "generic_name": "Metformin Hydrochloride 500mg",
+      "brand": "USV Ltd",
+      "category_id": "cat-04",
+      "strength": "500mg SR",
+      "manufacturer": "USV Private Limited",
+      "price": 35,
+      "discount": 5,
+      "availability": 1,
+      "prescription_required": 1,
+      "description": "Sustained release oral antihyperglycemic drug for managing Type 2 Diabetes Mellitus.",
+      "uses": "Blood sugar level maintenance, Type 2 diabetes control",
+      "warnings": "PRESCRIPTION REQUIRED. Take with evening meal. Monitor kidney function regularly.",
+      "storage_info": "Store below 25°C.",
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-07",
+      "name": "Pan-40 Tablet",
+      "generic_name": "Pantoprazole 40mg",
+      "brand": "Alkem Laboratories",
+      "category_id": "cat-05",
+      "strength": "40mg",
+      "manufacturer": "Alkem Labs",
+      "price": 110,
+      "discount": 10,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Proton pump inhibitor (PPI) that reduces acid production in the stomach, curing heart burn and acid reflux.",
+      "uses": "GERD, acid reflux, stomach ulcer prevention, acidity",
+      "warnings": "Swallow whole with water 30 minutes before breakfast.",
+      "storage_info": "Protect from moisture.",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-08",
+      "name": "Eno Fruit Salt (Lemon Flavour)",
+      "generic_name": "Sodic Bicarbonate + Citric Acid",
+      "brand": "GSK",
+      "category_id": "cat-05",
+      "strength": "5g sachet",
+      "manufacturer": "GlaxoSmithKline",
+      "price": 10,
+      "discount": 0,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Fast acting antacid powder that neutralizes stomach acid in 6 seconds to provide relief from gas and indigestion.",
+      "uses": "Acidity, heartburn, gas bloating, heavy stomach after meals",
+      "warnings": "Do not take more than 2 sachets in 24 hours.",
+      "storage_info": "Store sachet in dry container.",
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890003?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-09",
+      "name": "Limcee 500mg Chewable",
+      "generic_name": "Vitamin C (Ascorbic Acid) 500mg",
+      "brand": "Abbott",
+      "category_id": "cat-03",
+      "strength": "500mg",
+      "manufacturer": "Abbott Healthcare",
+      "price": 25,
+      "discount": 10,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Tangy orange chewable tablets supplying daily requirement of Vitamin C to bolster immunity and collagen growth.",
+      "uses": "Immunity improvement, cold prevention, antioxidant support",
+      "warnings": "Chew tablet before swallowing. Do not overdose.",
+      "storage_info": "Store in cool place.",
+      "image": "https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-10",
+      "name": "Betadine 10% Ointment 15g",
+      "generic_name": "Povidone-Iodine 10%",
+      "brand": "Win-Medicare",
+      "category_id": "cat-09",
+      "strength": "10% w/w",
+      "manufacturer": "Win Medicare",
+      "price": 115,
+      "discount": 8,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Topical antiseptic ointment for treatment and prevention of infection in minor cuts, scrapes, burns and abrasions.",
+      "uses": "Wound cleaning, burn disinfection, surgical dressing support",
+      "warnings": "For external use only. Discontinue if rash occurs.",
+      "storage_info": "Store below 25°C.",
+      "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-11",
+      "name": "DermaViva Aloe Vera Gel 100g",
+      "generic_name": "Pure Aloe Vera Extract 99%",
+      "brand": "Dabur",
+      "category_id": "cat-06",
+      "strength": "100g",
+      "manufacturer": "Dabur India",
+      "price": 180,
+      "discount": 20,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Organic aloe vera gel providing intense hydration, soothing sunburns, calming irritated skin and reducing redness.",
+      "uses": "Skin hydration, acne soothing, hair styling, post-shave balm",
+      "warnings": "Patch test recommended before full application.",
+      "storage_info": "Keep in refrigerator for extra cooling effect.",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-12",
+      "name": "Accu-Chek Active Test Strips 50s",
+      "generic_name": "Glucose Oxidase Test Strips",
+      "brand": "Roche Diabetes Care",
+      "category_id": "cat-04",
+      "strength": "50 Strips pack",
+      "manufacturer": "Roche Diagnostics",
+      "price": 975,
+      "discount": 15,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Precision blood glucose testing strips for Accu-Chek Active glucometer with fast 5-second result output.",
+      "uses": "Self-monitoring of blood glucose levels at home",
+      "warnings": "Use within 3 months of opening container.",
+      "storage_info": "Close container lid tightly immediately after removing strip.",
+      "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-13",
+      "name": "Omron M2 Basic Automatic BP Monitor",
+      "generic_name": "Digital Oscillometric Blood Pressure Monitor",
+      "brand": "Omron",
+      "category_id": "cat-12",
+      "strength": "Single Unit",
+      "manufacturer": "Omron Healthcare",
+      "price": 2490,
+      "discount": 18,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Fully automatic digital blood pressure monitor with Intellisense technology for accurate and painless inflation.",
+      "uses": "Systolic/diastolic blood pressure and pulse rate tracking",
+      "warnings": "Rest for 5 minutes before taking reading.",
+      "storage_info": "Store in protective padded case.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-14",
+      "name": "Pampers Premium Care Diapers (M)",
+      "generic_name": "Soft Absorbent Baby Diaper Pant",
+      "brand": "Procter & Gamble",
+      "category_id": "cat-08",
+      "strength": "34 Pants pack",
+      "manufacturer": "P&G Hygiene",
+      "price": 799,
+      "discount": 22,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Cottonlike softness with 3 3D absorbing channels to keep baby dry up to 12 hours with wetness indicator.",
+      "uses": "Infant overnight dryness and rash prevention",
+      "warnings": "Change diaper immediately when wetness indicator turns blue.",
+      "storage_info": "Store in clean dry cabinet.",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-15",
+      "name": "Sebamed Baby Gentle Wash 200ml",
+      "generic_name": "Sugar-based Cleanser pH 5.5",
+      "brand": "Sebamed",
+      "category_id": "cat-08",
+      "strength": "200ml",
+      "manufacturer": "Sebapharma GmbH",
+      "price": 640,
+      "discount": 10,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "100% soap-free and alkali-free cleanser with ideal pH 5.5 to support baby skin natural protective acid mantle.",
+      "uses": "Daily bath care for newborn delicate sensitive skin",
+      "warnings": "Rinse thoroughly with lukewarm water.",
+      "storage_info": "Store below 25°C.",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-16",
+      "name": "Evion 400mg Vitamin E Capsule",
+      "generic_name": "Tocopheryl Acetate 400mg",
+      "brand": "Merck India",
+      "category_id": "cat-03",
+      "strength": "400mg",
+      "manufacturer": "Procter & Gamble Health",
+      "price": 38,
+      "discount": 5,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Lipid-soluble antioxidant vitamin E nourishing cellular membranes, improving skin glow and muscle healing.",
+      "uses": "Skin moisture, anti-aging nourishment, leg cramp prevention",
+      "warnings": "Consult physician if taking anticoagulant medications.",
+      "storage_info": "Keep bottle tightly closed in dark room.",
+      "image": "https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-17",
+      "name": "Revital H Capsule for Men",
+      "generic_name": "Ginseng Extract + 9 Minerals + 12 Vitamins",
+      "brand": "Sun Pharma",
+      "category_id": "cat-11",
+      "strength": "30 Capsules pack",
+      "manufacturer": "Sun Pharmaceutical",
+      "price": 330,
+      "discount": 12,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Daily health supplement with Natural Ginseng to stay active, energetic and overcome daily physical stress.",
+      "uses": "Mental stamina, physical endurance, daily energy retention",
+      "warnings": "Take 1 capsule daily after breakfast with water.",
+      "storage_info": "Store in cool dry place.",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-18",
+      "name": "Dexorange Syrup 200ml",
+      "generic_name": "Ferric Ammonium Citrate + Folic Acid + Cyanocobalamin",
+      "brand": "Franco-Indian",
+      "category_id": "cat-10",
+      "strength": "200ml",
+      "manufacturer": "Franco-Indian Pharmaceuticals",
+      "price": 172,
+      "discount": 10,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Delicious iron syrup helping build hemoglobin, red blood cells and treat anemia in women, teenagers and elderly.",
+      "uses": "Iron deficiency anemia, pregnancy nutritional support, fatigue",
+      "warnings": "May cause dark stools which is normal with oral iron.",
+      "storage_info": "Shake well before use.",
+      "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-19",
+      "name": "Volini Pain Relief Spray 100g",
+      "generic_name": "Diclofenac Diethylamine + Methyl Salicylate + Menthol",
+      "brand": "Sun Pharma",
+      "category_id": "cat-01",
+      "strength": "100g spray bottle",
+      "manufacturer": "Sun Pharma Ltd",
+      "price": 325,
+      "discount": 15,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Quick action pain relief aerosol spray providing deep micro-penetration for instant joint and back pain relief.",
+      "uses": "Sprains, neck pain, lower back pain, sports injuries",
+      "warnings": "Flammable. Do not spray near open flame or eyes.",
+      "storage_info": "Keep away from direct heat (>50°C).",
+      "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "med-20",
+      "name": "Otrivin Adult Nasal Spray 10ml",
+      "generic_name": "Xylometazoline Hydrochloride 0.1%",
+      "brand": "GSK Consumer",
+      "category_id": "cat-02",
+      "strength": "0.1% w/v",
+      "manufacturer": "GlaxoSmithKline",
+      "price": 110,
+      "discount": 5,
+      "availability": 1,
+      "prescription_required": 0,
+      "description": "Fast acting decongestant opening blocked nose within 2 minutes and keeping nasal passages clear for up to 12 hours.",
+      "uses": "Nasal congestion due to cold, hay fever, sinusitis",
+      "warnings": "Do not use continuously for more than 7 consecutive days.",
+      "storage_info": "Keep nozzle cap closed after use.",
+      "image": "https://images.unsplash.com/photo-1550572017-edf792890003?auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": "ph-01",
+      "name": "Apollo Pharmacy — Koramangala",
+      "logo": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=150&q=80",
+      "rating": 4.8,
+      "address": "77, 80 Feet Road, Koramangala 4th Block",
+      "city": "Bengaluru",
+      "area": "Koramangala",
+      "pincode": "560034",
+      "lat": 12.934,
+      "lng": 77.622,
+      "phone": "+91 80 2553 1122",
+      "is_open": 1,
+      "estimated_delivery_min": 20
+    },
+    {
+      "id": "ph-02",
+      "name": "MedPlus Pharmacy — Indiranagar",
+      "logo": "https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=150&q=80",
+      "rating": 4.6,
+      "address": "412, 100 Feet Road, HAL 2nd Stage, Indiranagar",
+      "city": "Bengaluru",
+      "area": "Indiranagar",
+      "pincode": "560038",
+      "lat": 12.9698,
+      "lng": 77.6415,
+      "phone": "+91 80 2525 9900",
+      "is_open": 1,
+      "estimated_delivery_min": 25
+    },
+    {
+      "id": "ph-03",
+      "name": "Netmeds Store — HSR Layout",
+      "logo": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&w=150&q=80",
+      "rating": 4.7,
+      "address": "Shop 14, 27th Main Rd, Sector 1, HSR Layout",
+      "city": "Bengaluru",
+      "area": "HSR Layout",
+      "pincode": "560102",
+      "lat": 12.9116,
+      "lng": 77.6389,
+      "phone": "+91 80 4112 3344",
+      "is_open": 1,
+      "estimated_delivery_min": 30
+    },
+    {
+      "id": "ph-04",
+      "name": "Wellness Forever — BTM Layout",
+      "logo": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=150&q=80",
+      "rating": 4.5,
+      "address": "Outer Ring Rd, 2nd Stage, BTM Layout",
+      "city": "Bengaluru",
+      "area": "BTM Layout",
+      "pincode": "560076",
+      "lat": 12.9166,
+      "lng": 77.6101,
+      "phone": "+91 80 2668 5566",
+      "is_open": 1,
+      "estimated_delivery_min": 22
+    },
+    {
+      "id": "ph-05",
+      "name": "Frank Ross Pharmacy — Jayanagar",
+      "logo": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=150&q=80",
+      "rating": 4.9,
+      "address": "320, 11th Main Road, 4th T Block, Jayanagar",
+      "city": "Bengaluru",
+      "area": "Jayanagar",
+      "pincode": "560041",
+      "lat": 12.925,
+      "lng": 77.5938,
+      "phone": "+91 80 2654 7788",
+      "is_open": 1,
+      "estimated_delivery_min": 35
+    }
+  ],
+  "pharmacy_medicines": [
+    {
+      "id": "9a70d939-a206-473e-b666-e39fb851e055",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-01",
+      "stock": 15,
+      "price_override": null
+    },
+    {
+      "id": "3033c6ca-8d69-4043-b3d8-cf289d76e9b1",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-02",
+      "stock": 50,
+      "price_override": null
+    },
+    {
+      "id": "2f8db7a3-420a-4160-a62d-6df403ab8a37",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-03",
+      "stock": 90,
+      "price_override": null
+    },
+    {
+      "id": "1d999f47-ac72-44a6-ba6e-4ae3627be335",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-04",
+      "stock": 20,
+      "price_override": null
+    },
+    {
+      "id": "a1a94380-985d-41ca-aabe-5ffb5c4b26eb",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-05",
+      "stock": 59,
+      "price_override": null
+    },
+    {
+      "id": "5132ec8f-64c2-4501-a9c6-0c193924211c",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-06",
+      "stock": 85,
+      "price_override": null
+    },
+    {
+      "id": "1b703df7-6cd7-4e79-b4bf-ca0ea8fdae0f",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-07",
+      "stock": 61,
+      "price_override": null
+    },
+    {
+      "id": "47a6c68d-7706-467d-bbbb-9c715e86a92f",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-08",
+      "stock": 47,
+      "price_override": null
+    },
+    {
+      "id": "b8c5bfcb-be29-486e-b71f-cadcadc85b42",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-09",
+      "stock": 83,
+      "price_override": null
+    },
+    {
+      "id": "1c2512f6-869f-457d-8903-3719e97d2cfe",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-10",
+      "stock": 16,
+      "price_override": null
+    },
+    {
+      "id": "1cf51e56-a81c-4e4b-905b-e6a1eebef7ad",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-11",
+      "stock": 61,
+      "price_override": null
+    },
+    {
+      "id": "61f26cc1-9900-47ef-bf79-8cc49dc06857",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-12",
+      "stock": 21,
+      "price_override": null
+    },
+    {
+      "id": "71cf7cf9-9078-427b-9e9c-2bfee5f2968c",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-13",
+      "stock": 19,
+      "price_override": null
+    },
+    {
+      "id": "975eb560-e235-4149-808c-0eb26d48bec5",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-14",
+      "stock": 75,
+      "price_override": null
+    },
+    {
+      "id": "fdd1003c-731e-470d-9cb7-e548a5a73186",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-15",
+      "stock": 59,
+      "price_override": null
+    },
+    {
+      "id": "f939170e-2ade-4f07-a210-eebe404728c3",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-16",
+      "stock": 27,
+      "price_override": null
+    },
+    {
+      "id": "2fa0ab1a-56b1-443e-b49e-b2f0c69d5408",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-17",
+      "stock": 88,
+      "price_override": null
+    },
+    {
+      "id": "44bc95d7-f73c-4dbc-bddf-138210948510",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-18",
+      "stock": 84,
+      "price_override": null
+    },
+    {
+      "id": "d75cac32-3024-49ad-a3cb-65a7be942a88",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-19",
+      "stock": 31,
+      "price_override": null
+    },
+    {
+      "id": "7479d15c-b3c6-4579-8ec8-00bfc4dbb89c",
+      "pharmacy_id": "ph-01",
+      "medicine_id": "med-20",
+      "stock": 18,
+      "price_override": null
+    },
+    {
+      "id": "b18b6b4c-a603-40d4-a942-d9da28b68b1c",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-01",
+      "stock": 59,
+      "price_override": null
+    },
+    {
+      "id": "f14aff81-cc60-4cc0-99c9-642df02d8b8a",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-02",
+      "stock": 65,
+      "price_override": null
+    },
+    {
+      "id": "8b2924b0-b2f0-4609-8d83-c237a793c83b",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-03",
+      "stock": 35,
+      "price_override": null
+    },
+    {
+      "id": "1fe90eff-2986-4e01-a0d2-4376b6071cef",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-04",
+      "stock": 56,
+      "price_override": null
+    },
+    {
+      "id": "b53297f5-0095-4324-b08b-5eb6fcf92e4c",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-05",
+      "stock": 38,
+      "price_override": null
+    },
+    {
+      "id": "2954c6d2-513b-4172-a227-0477082955c3",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-06",
+      "stock": 27,
+      "price_override": null
+    },
+    {
+      "id": "01a6b19d-3375-484c-aa39-b0b8d26366fd",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-07",
+      "stock": 46,
+      "price_override": null
+    },
+    {
+      "id": "71497cc5-2114-45c2-81f0-1c0137f9fd21",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-08",
+      "stock": 33,
+      "price_override": null
+    },
+    {
+      "id": "592c0e6a-d341-4512-a606-44f80990f6b7",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-09",
+      "stock": 24,
+      "price_override": null
+    },
+    {
+      "id": "10a9bba1-bc9f-4003-949d-f2353ba05795",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-10",
+      "stock": 36,
+      "price_override": null
+    },
+    {
+      "id": "648b7a63-5cb3-4750-83a4-6abaef631d7d",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-11",
+      "stock": 44,
+      "price_override": null
+    },
+    {
+      "id": "e56b9bdc-5ea2-4b3d-ab9f-7fc727033dcd",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-12",
+      "stock": 59,
+      "price_override": null
+    },
+    {
+      "id": "fe55f259-f11d-4c84-92da-15cd27a37927",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-13",
+      "stock": 23,
+      "price_override": null
+    },
+    {
+      "id": "a082b8fe-85ef-44aa-8d29-5deb7ae8deba",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-14",
+      "stock": 32,
+      "price_override": null
+    },
+    {
+      "id": "06f27e79-797f-4a15-8992-b2df420bb636",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-15",
+      "stock": 69,
+      "price_override": null
+    },
+    {
+      "id": "66993ce3-0328-4490-b2a8-02d7765b1a1d",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-16",
+      "stock": 15,
+      "price_override": null
+    },
+    {
+      "id": "2fca8443-045e-4f68-83be-9d79cf7e2f63",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-17",
+      "stock": 88,
+      "price_override": null
+    },
+    {
+      "id": "c3180c4e-717f-418c-9623-b20623a4dac5",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-18",
+      "stock": 90,
+      "price_override": null
+    },
+    {
+      "id": "8b344c38-e6f3-4e2c-8e48-20e654b00f9d",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-19",
+      "stock": 16,
+      "price_override": null
+    },
+    {
+      "id": "d983958c-95be-46f4-a0b2-da2b4254efa0",
+      "pharmacy_id": "ph-02",
+      "medicine_id": "med-20",
+      "stock": 51,
+      "price_override": null
+    },
+    {
+      "id": "f7364e1d-5dcd-4456-bfa8-28164c3bf7b8",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-01",
+      "stock": 35,
+      "price_override": null
+    },
+    {
+      "id": "719f11ae-007b-4d69-95d4-8f40fde28079",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-02",
+      "stock": 45,
+      "price_override": null
+    },
+    {
+      "id": "944a5bd8-f6a0-4a21-9df6-f8299f6e04ff",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-03",
+      "stock": 54,
+      "price_override": null
+    },
+    {
+      "id": "4d7337e3-b28b-4d29-8086-8dc1b385db4e",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-04",
+      "stock": 44,
+      "price_override": null
+    },
+    {
+      "id": "ac71cefb-5b21-469b-b3d3-3a1506d8b50d",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-05",
+      "stock": 73,
+      "price_override": null
+    },
+    {
+      "id": "3ebd59c3-49d7-4bd1-a94c-67679d552cc0",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-06",
+      "stock": 85,
+      "price_override": null
+    },
+    {
+      "id": "f9dec69c-fa07-43a4-92c9-39ac7e8dbd57",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-07",
+      "stock": 94,
+      "price_override": null
+    },
+    {
+      "id": "928efba7-9749-48d3-b87a-65d08ca3fdec",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-08",
+      "stock": 92,
+      "price_override": null
+    },
+    {
+      "id": "751a2b0a-45ab-4962-9171-2bb32575744f",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-09",
+      "stock": 24,
+      "price_override": null
+    },
+    {
+      "id": "b9cc4cd7-9bf7-4601-8ca8-1ff090bf8396",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-10",
+      "stock": 65,
+      "price_override": null
+    },
+    {
+      "id": "e5a89e96-5558-408c-a91c-f75b4e77f34f",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-11",
+      "stock": 73,
+      "price_override": null
+    },
+    {
+      "id": "c057bb57-9657-4bbd-8fd7-628c1e18b83a",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-12",
+      "stock": 94,
+      "price_override": null
+    },
+    {
+      "id": "667bf2a2-49e2-4fc9-bc02-239a362dbcc8",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-13",
+      "stock": 31,
+      "price_override": null
+    },
+    {
+      "id": "3b7f65d4-dc2f-48f3-9103-bc1531e4bd90",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-14",
+      "stock": 34,
+      "price_override": null
+    },
+    {
+      "id": "e0a26555-94c0-49d1-9789-a796d6de1de3",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-15",
+      "stock": 38,
+      "price_override": null
+    },
+    {
+      "id": "e2fc5ab6-824e-469d-9d33-5962514b70b0",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-16",
+      "stock": 60,
+      "price_override": null
+    },
+    {
+      "id": "63a5b83e-ec7a-4a2d-866a-c80c8d501bd9",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-17",
+      "stock": 40,
+      "price_override": null
+    },
+    {
+      "id": "b63bbc9d-b8cb-4f2b-8f59-e0a05a31d453",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-18",
+      "stock": 61,
+      "price_override": null
+    },
+    {
+      "id": "e21f1908-2fe8-4d0d-af48-d5d164945a84",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-19",
+      "stock": 37,
+      "price_override": null
+    },
+    {
+      "id": "416c1e06-6fe6-485d-be68-8786c993a394",
+      "pharmacy_id": "ph-03",
+      "medicine_id": "med-20",
+      "stock": 48,
+      "price_override": null
+    },
+    {
+      "id": "94ea6d54-04ac-4aa9-9cd1-e5942fecd6ba",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-01",
+      "stock": 21,
+      "price_override": null
+    },
+    {
+      "id": "81ac1671-7bcb-4938-802f-2501bc0854c5",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-02",
+      "stock": 28,
+      "price_override": null
+    },
+    {
+      "id": "89ff7082-2e86-4fd9-8c18-3e36ee9f8ed1",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-03",
+      "stock": 22,
+      "price_override": null
+    },
+    {
+      "id": "40449f3d-6a36-47bc-bcd7-498641c50ce7",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-04",
+      "stock": 56,
+      "price_override": null
+    },
+    {
+      "id": "c1b9a4f3-9e9b-46de-acdd-82cff25d784f",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-05",
+      "stock": 61,
+      "price_override": null
+    },
+    {
+      "id": "d770a6e3-a005-4478-9af6-45f84093c480",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-06",
+      "stock": 38,
+      "price_override": null
+    },
+    {
+      "id": "d5f71e44-f66c-4947-8e4d-a238b08fdb44",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-07",
+      "stock": 91,
+      "price_override": null
+    },
+    {
+      "id": "327187dd-8834-4857-ae25-717f9efdc73d",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-08",
+      "stock": 34,
+      "price_override": null
+    },
+    {
+      "id": "edd806be-c2c5-4f7b-b25c-7c0cad803eb0",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-09",
+      "stock": 27,
+      "price_override": null
+    },
+    {
+      "id": "df0af4b0-4fc4-4034-9710-8819a094b0b4",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-10",
+      "stock": 72,
+      "price_override": null
+    },
+    {
+      "id": "2dd7dec1-e82b-4cc8-805e-dd8523d16023",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-11",
+      "stock": 52,
+      "price_override": null
+    },
+    {
+      "id": "7dfd50cb-e096-47bc-9c8a-bd2d2bf17575",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-12",
+      "stock": 93,
+      "price_override": null
+    },
+    {
+      "id": "bdcd96c9-45d2-4889-b6d0-0ce3ac57366f",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-13",
+      "stock": 76,
+      "price_override": null
+    },
+    {
+      "id": "2366d360-bfb5-437d-887f-0b468f094c99",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-14",
+      "stock": 16,
+      "price_override": null
+    },
+    {
+      "id": "cea409bd-f9b4-48fd-9d57-0f5910b8b1d1",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-15",
+      "stock": 79,
+      "price_override": null
+    },
+    {
+      "id": "5a33340a-f94b-4ba5-985b-02e066c65ba6",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-16",
+      "stock": 56,
+      "price_override": null
+    },
+    {
+      "id": "3a67a762-15b2-4607-8bd8-f59c7e4f584a",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-17",
+      "stock": 29,
+      "price_override": null
+    },
+    {
+      "id": "f6857fbd-0816-4bd4-945e-e1b2b1edafdf",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-18",
+      "stock": 48,
+      "price_override": null
+    },
+    {
+      "id": "66c14c5b-f635-4ccb-9101-528831446e5d",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-19",
+      "stock": 60,
+      "price_override": null
+    },
+    {
+      "id": "5a94ecf7-0d6f-4d68-a388-a9633723b633",
+      "pharmacy_id": "ph-04",
+      "medicine_id": "med-20",
+      "stock": 75,
+      "price_override": null
+    },
+    {
+      "id": "b1252576-2e7c-4e96-bd1f-66612e6f2f8f",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-01",
+      "stock": 66,
+      "price_override": null
+    },
+    {
+      "id": "ac6b3eba-e75b-4f30-b662-10d1563dbc72",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-02",
+      "stock": 84,
+      "price_override": null
+    },
+    {
+      "id": "4b012bda-8db5-417b-8501-9c8536f899c5",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-03",
+      "stock": 42,
+      "price_override": null
+    },
+    {
+      "id": "cec6acff-a898-41f4-bb73-9ec72df54387",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-04",
+      "stock": 66,
+      "price_override": null
+    },
+    {
+      "id": "1ac42450-f745-4a88-a0b6-6996add99438",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-05",
+      "stock": 39,
+      "price_override": null
+    },
+    {
+      "id": "150d16b1-152c-4e8d-ba51-5cec0c3cfebf",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-06",
+      "stock": 58,
+      "price_override": null
+    },
+    {
+      "id": "c07f466d-29a2-4dc1-ac29-de712b085d77",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-07",
+      "stock": 20,
+      "price_override": null
+    },
+    {
+      "id": "10a04044-ff51-4768-b25b-a57199530329",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-08",
+      "stock": 64,
+      "price_override": null
+    },
+    {
+      "id": "9379c646-3869-4ed7-ac76-6cff04e7cb8a",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-09",
+      "stock": 21,
+      "price_override": null
+    },
+    {
+      "id": "8e8bbec5-adc4-42f9-840c-df0f791cfdbc",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-10",
+      "stock": 53,
+      "price_override": null
+    },
+    {
+      "id": "d28844b8-87b4-4abd-b130-b89d153d248a",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-11",
+      "stock": 67,
+      "price_override": null
+    },
+    {
+      "id": "d623bf68-c1f3-4306-9da5-bdeecfa6c876",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-12",
+      "stock": 90,
+      "price_override": null
+    },
+    {
+      "id": "a6f6441e-f816-43cb-bf28-76dc2ca39a5f",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-13",
+      "stock": 23,
+      "price_override": null
+    },
+    {
+      "id": "7e686d3b-1211-46db-a772-1aa8b500856c",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-14",
+      "stock": 37,
+      "price_override": null
+    },
+    {
+      "id": "ff305ec0-44d5-448b-a2ac-1d55bf014c7b",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-15",
+      "stock": 60,
+      "price_override": null
+    },
+    {
+      "id": "b4379efb-7be0-4dca-b60b-1b29c75a38cc",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-16",
+      "stock": 48,
+      "price_override": null
+    },
+    {
+      "id": "dcc124c6-e51c-41f0-a814-85628ef22c6d",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-17",
+      "stock": 25,
+      "price_override": null
+    },
+    {
+      "id": "30184122-5364-401e-8edc-08825a4c32d0",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-18",
+      "stock": 92,
+      "price_override": null
+    },
+    {
+      "id": "49610c76-27cc-4966-97ce-b01048173ef0",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-19",
+      "stock": 47,
+      "price_override": null
+    },
+    {
+      "id": "402afa6b-82a8-4c33-aebd-0826e3f68038",
+      "pharmacy_id": "ph-05",
+      "medicine_id": "med-20",
+      "stock": 55,
+      "price_override": null
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "presc-101",
+      "user_id": "usr-abhiram-001",
+      "file_path": null,
+      "file_name": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80",
+      "file_type": "Dr_Rao_Prescription_Aug2026.jpg",
+      "notes": "image/jpeg",
+      "status": "Please send 1 strip of Amoxyclav 625mg and Glycomet 500mg as prescribed by Dr. Rao.",
+      "created_at": "2026-08-22T15:45:05.031Z"
+    }
+  ],
+  "cart_items": [],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "order_number": "ORD-20260821-00125",
+      "user_id": "usr-abhiram-001",
+      "pharmacy_id": "ph-01",
+      "address_id": "addr-001",
+      "total_amount": 275.4,
+      "subtotal": 266,
+      "delivery_fee": 29,
+      "discount_amount": 19.6,
+      "payment_method": "UPI",
+      "payment_status": "Paid",
+      "order_status": "Out for Delivery",
+      "created_at": "2026-08-22T15:45:05.031Z"
+    },
+    {
+      "id": "ord-1a0d62b1",
+      "order_number": "ORD-20260822-39884",
+      "user_id": "usr-abhiram-001",
+      "pharmacy_id": "ph-01",
+      "address_id": "addr-002",
+      "total_amount": 807.75,
+      "subtotal": 828.75,
+      "delivery_fee": 29,
+      "discount_amount": 50,
+      "payment_method": "COD",
+      "payment_status": "Paid",
+      "order_status": "Placed",
+      "created_at": "2026-08-22T15:48:09.409Z"
+    },
+    {
+      "id": "ord-e5b73931",
+      "order_number": "ORD-20260822-57406",
+      "user_id": "usr-abhiram-001",
+      "pharmacy_id": "ph-01",
+      "address_id": "addr-002",
+      "total_amount": 807.75,
+      "subtotal": 828.75,
+      "delivery_fee": 29,
+      "discount_amount": 50,
+      "payment_method": "Card",
+      "payment_status": "Paid",
+      "order_status": "Placed",
+      "created_at": "2026-08-22T16:14:03.682Z"
+    },
+    {
+      "id": "ord-c83b4a57",
+      "order_number": "ORD-20260822-18078",
+      "user_id": "usr-abhiram-001",
+      "pharmacy_id": "ph-01",
+      "address_id": "addr-001",
+      "total_amount": 128,
+      "subtotal": 99,
+      "delivery_fee": 29,
+      "discount_amount": 0,
+      "payment_method": "UPI",
+      "payment_status": "Paid",
+      "order_status": "Placed",
+      "created_at": "2026-08-22T16:27:32.717Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "c8f5875b-2682-4d0f-aa4d-121d4bfae4ee",
+      "order_id": "ord-1001",
+      "medicine_id": "med-01",
+      "quantity": 2,
+      "unit_price": 27.45,
+      "prescription_required": 0
+    },
+    {
+      "id": "69062c82-b3fa-471d-b6e9-9b3fb888675c",
+      "order_id": "ord-1001",
+      "medicine_id": "med-05",
+      "quantity": 1,
+      "unit_price": 197.8,
+      "prescription_required": 1
+    },
+    {
+      "id": "cdcb0849-c9ae-4aa4-897f-5ba113a02687",
+      "order_id": "ord-1a0d62b1",
+      "medicine_id": "med-12",
+      "quantity": 1,
+      "unit_price": 828.75,
+      "prescription_required": 0
+    },
+    {
+      "id": "98c1c736-8fb9-437b-bd7a-11faeb0db570",
+      "order_id": "ord-e5b73931",
+      "medicine_id": "med-12",
+      "quantity": 1,
+      "unit_price": 828.75,
+      "prescription_required": 0
+    },
+    {
+      "id": "e012d524-a3ba-4316-999e-2f573082b18e",
+      "order_id": "ord-c83b4a57",
+      "medicine_id": "med-07",
+      "quantity": 1,
+      "unit_price": 99,
+      "prescription_required": 0
+    }
+  ],
+  "delivery_tracking": [
+    {
+      "id": "7951145f-7894-4ee0-8fb1-818a6c5b79e1",
+      "order_id": "ord-1001",
+      "step": "Order Placed",
+      "status": "completed",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 99887 76655",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T15:45:05.033Z"
+    },
+    {
+      "id": "9d0aa4d5-1e31-4ba5-bcdf-edf96cbbbbdd",
+      "order_id": "ord-1001",
+      "step": "Pharmacy Confirmed",
+      "status": "completed",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 99887 76655",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T15:45:05.034Z"
+    },
+    {
+      "id": "5f51aad7-72fd-4962-842a-8261d8cea8fd",
+      "order_id": "ord-1001",
+      "step": "Medicine Packed",
+      "status": "completed",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 99887 76655",
+      "driver_lat": 12.9342,
+      "driver_lng": 77.6225,
+      "timestamp": "2026-08-22T15:45:05.035Z"
+    },
+    {
+      "id": "3e987d20-c91a-4093-b7bb-7ae0f1dc42a6",
+      "order_id": "ord-1001",
+      "step": "Out for Delivery",
+      "status": "active",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 99887 76655",
+      "driver_lat": 12.9348,
+      "driver_lng": 77.6235,
+      "timestamp": "2026-08-22T15:45:05.035Z"
+    },
+    {
+      "id": "acabdb1d-db06-4a46-a19e-9fbd6ebf661a",
+      "order_id": "ord-1001",
+      "step": "Delivered",
+      "status": "pending",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 99887 76655",
+      "driver_lat": 12.9352,
+      "driver_lng": 77.6245,
+      "timestamp": "2026-08-22T15:45:05.036Z"
+    },
+    {
+      "id": "2bf1ab59-6847-4c70-b986-d104345709c8",
+      "order_id": "ord-1a0d62b1",
+      "step": "Order Placed",
+      "status": "completed",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 98765 26524",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T15:48:09.415Z"
+    },
+    {
+      "id": "e72fdbb0-4f83-4bf8-829f-e390e7fd70fe",
+      "order_id": "ord-1a0d62b1",
+      "step": "Pharmacy Confirmed",
+      "status": "pending",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 98765 26524",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T15:48:09.418Z"
+    },
+    {
+      "id": "6dbcdafc-1f4f-4403-ba00-966dde74210f",
+      "order_id": "ord-1a0d62b1",
+      "step": "Medicine Packed",
+      "status": "pending",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 98765 26524",
+      "driver_lat": 12.9345,
+      "driver_lng": 77.6225,
+      "timestamp": "2026-08-22T15:48:09.421Z"
+    },
+    {
+      "id": "1bdbead4-6ede-4315-aea1-9b43b016ff7d",
+      "order_id": "ord-1a0d62b1",
+      "step": "Out for Delivery",
+      "status": "pending",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 98765 26524",
+      "driver_lat": 12.934999999999999,
+      "driver_lng": 77.623,
+      "timestamp": "2026-08-22T15:48:09.425Z"
+    },
+    {
+      "id": "3c73cd36-226e-4725-80bc-34d5d2621f32",
+      "order_id": "ord-1a0d62b1",
+      "step": "Delivered",
+      "status": "pending",
+      "driver_name": "Ramesh Kumar",
+      "driver_phone": "+91 98765 26524",
+      "driver_lat": 12.9279,
+      "driver_lng": 77.6806,
+      "timestamp": "2026-08-22T15:48:09.429Z"
+    },
+    {
+      "id": "7c17c613-94d5-4af6-a229-73f8603107c7",
+      "order_id": "ord-e5b73931",
+      "step": "Order Placed",
+      "status": "completed",
+      "driver_name": "Anand Joshi",
+      "driver_phone": "+91 98765 51871",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T16:14:03.694Z"
+    },
+    {
+      "id": "ba511195-3ff5-4fda-92b6-01aa94593386",
+      "order_id": "ord-e5b73931",
+      "step": "Pharmacy Confirmed",
+      "status": "pending",
+      "driver_name": "Anand Joshi",
+      "driver_phone": "+91 98765 51871",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T16:14:03.710Z"
+    },
+    {
+      "id": "f0d04fe1-20af-48ea-8f0a-4ecad2cf1536",
+      "order_id": "ord-e5b73931",
+      "step": "Medicine Packed",
+      "status": "pending",
+      "driver_name": "Anand Joshi",
+      "driver_phone": "+91 98765 51871",
+      "driver_lat": 12.9345,
+      "driver_lng": 77.6225,
+      "timestamp": "2026-08-22T16:14:03.716Z"
+    },
+    {
+      "id": "012315a4-6bd1-455c-b701-7669fc7d549d",
+      "order_id": "ord-e5b73931",
+      "step": "Out for Delivery",
+      "status": "pending",
+      "driver_name": "Anand Joshi",
+      "driver_phone": "+91 98765 51871",
+      "driver_lat": 12.934999999999999,
+      "driver_lng": 77.623,
+      "timestamp": "2026-08-22T16:14:03.719Z"
+    },
+    {
+      "id": "e0acf308-1fb0-48dc-8c83-b0bb4061e51b",
+      "order_id": "ord-e5b73931",
+      "step": "Delivered",
+      "status": "pending",
+      "driver_name": "Anand Joshi",
+      "driver_phone": "+91 98765 51871",
+      "driver_lat": 12.9279,
+      "driver_lng": 77.6806,
+      "timestamp": "2026-08-22T16:14:03.722Z"
+    },
+    {
+      "id": "f7039fde-dc21-4d2a-83c4-74b0dde8c2fb",
+      "order_id": "ord-c83b4a57",
+      "step": "Order Placed",
+      "status": "completed",
+      "driver_name": "Suresh Patel",
+      "driver_phone": "+91 98765 11004",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T16:27:32.725Z"
+    },
+    {
+      "id": "ede4c901-0228-4710-87f0-44630b25b7df",
+      "order_id": "ord-c83b4a57",
+      "step": "Pharmacy Confirmed",
+      "status": "pending",
+      "driver_name": "Suresh Patel",
+      "driver_phone": "+91 98765 11004",
+      "driver_lat": 12.934,
+      "driver_lng": 77.622,
+      "timestamp": "2026-08-22T16:27:32.735Z"
+    },
+    {
+      "id": "05b7d6a2-36bc-4aa4-b113-5ca806f7f8db",
+      "order_id": "ord-c83b4a57",
+      "step": "Medicine Packed",
+      "status": "pending",
+      "driver_name": "Suresh Patel",
+      "driver_phone": "+91 98765 11004",
+      "driver_lat": 12.9345,
+      "driver_lng": 77.6225,
+      "timestamp": "2026-08-22T16:27:32.739Z"
+    },
+    {
+      "id": "b53bd8f0-cd4b-4a8e-b65e-2618d9166dda",
+      "order_id": "ord-c83b4a57",
+      "step": "Out for Delivery",
+      "status": "pending",
+      "driver_name": "Suresh Patel",
+      "driver_phone": "+91 98765 11004",
+      "driver_lat": 12.934999999999999,
+      "driver_lng": 77.623,
+      "timestamp": "2026-08-22T16:27:32.742Z"
+    },
+    {
+      "id": "c50c7746-1a33-43ac-8b07-0a5a3b75bd43",
+      "order_id": "ord-c83b4a57",
+      "step": "Delivered",
+      "status": "pending",
+      "driver_name": "Suresh Patel",
+      "driver_phone": "+91 98765 11004",
+      "driver_lat": 12.9352,
+      "driver_lng": 77.6245,
+      "timestamp": "2026-08-22T16:27:32.746Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "78a1057c-8915-400e-8d55-bdfc3a2755a7",
+      "user_id": "usr-abhiram-001",
+      "title": "Order Confirmed! 🎉",
+      "message": "Your order #ORD-20260821-00125 has been confirmed by Apollo Pharmacy Koramangala.",
+      "is_read": 0,
+      "type": "info",
+      "created_at": "2026-08-22T15:45:05.037Z"
+    },
+    {
+      "id": "50dc40f7-6b01-41a8-8af2-6a2c924178ff",
+      "user_id": "usr-abhiram-001",
+      "title": "Out for Delivery 🚚",
+      "message": "Ramesh Kumar is on the way to deliver your medicines in ~15 mins.",
+      "is_read": 0,
+      "type": "info",
+      "created_at": "2026-08-22T15:45:05.037Z"
+    },
+    {
+      "id": "ee258f1b-9b45-41c1-a82f-df89727e8ae6",
+      "user_id": "usr-abhiram-001",
+      "title": "Prescription Approved ✅",
+      "message": "Your uploaded doctor prescription has been verified by Pharmacist Dr. Rajesh.",
+      "is_read": 0,
+      "type": 1,
+      "created_at": "2026-08-22T15:45:05.038Z"
+    },
+    {
+      "id": "d5a95520-53c9-4f64-9fb4-12e50374278d",
+      "user_id": "usr-abhiram-001",
+      "title": "Order Placed Successfully! 🎉",
+      "message": "Your order #ORD-20260822-39884 of ₹807.75 has been placed successfully.",
+      "is_read": 0,
+      "type": "info",
+      "created_at": "2026-08-22T15:48:09.433Z"
+    },
+    {
+      "id": "36d3109b-e6fc-4290-93c5-d58e18312fb9",
+      "user_id": "usr-abhiram-001",
+      "title": "Order Placed Successfully! 🎉",
+      "message": "Your order #ORD-20260822-57406 of ₹807.75 has been placed successfully.",
+      "is_read": 0,
+      "type": "info",
+      "created_at": "2026-08-22T16:14:03.738Z"
+    },
+    {
+      "id": "0b0ad844-bf70-43a0-8f5b-41e64d6fb2a5",
+      "user_id": "usr-abhiram-001",
+      "title": "Order Placed Successfully! 🎉",
+      "message": "Your order #ORD-20260822-18078 of ₹128 has been placed successfully.",
+      "is_read": 0,
+      "type": "info",
+      "created_at": "2026-08-22T16:27:32.753Z"
+    }
+  ]
+}
